@@ -5,3 +5,9 @@
     flex: 1;
   }
 }
+
+@media (max-width: 1220px) {
+  .wrapper {
+    display: block;
+  }
+}

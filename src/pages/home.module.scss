@@ -168,3 +168,15 @@
     }
   }
 }
+
+@media(max-width: 1220px) {
+  .homePage {
+    height: calc(100vh - 20rem);
+  }
+}
+
+@media (max-width: 550px) {
+  .homePage {
+    height: calc(100vh - 15rem);
+  }
+}

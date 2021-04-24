@@ -134,3 +134,134 @@
 
   }
 }
+
+@media (max-width: 1220px) {
+  .playerContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 15rem;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    header {
+      display: none;
+    }
+
+  }
+
+  .emptyPlayer {
+    display: flex;
+    justify-content: center;
+
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .currentEpisode {
+    display: flex;
+    gap: 1rem;
+
+    strong {
+      max-width: 35rem;
+      margin-right: 1rem;
+    }
+
+    img {
+      margin-right: 5rem;
+      width: 10rem;; 
+    }
+
+    span {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .currentEpisode {
+    strong {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+
+  .playerContainer {
+    flex-direction: column;
+    // padding-top: 1rem;
+
+    .currentEpisode {
+      strong {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+  
+      img {
+        display: none !important
+      }
+      
+    }
+
+    .emptyPlayer {
+      display: none;
+    }
+
+    footer {
+      .progress {
+        margin-top: 0.5rem;
+      }
+      .buttons {
+        margin-top: 1rem;
+      }
+    }
+  
+    .emptyPlayer {
+      width: 8rem;
+      height: 8rem;   
+    }
+  }
+  
+}
+
+@media (max-width: 550px) {
+
+  .playerContainer {
+
+    height: 10rem;
+    padding: 1rem;
+    
+    .currentEpisode {
+      max-width: 100%;
+      strong {
+        max-width: 70%;
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    footer {
+      margin-bottom: 1rem;
+
+      .buttons { 
+        margin-top: 1rem;
+
+        button {
+          height: 2.5rem;
+        }
+
+      }
+    }
+  }
+
+}
