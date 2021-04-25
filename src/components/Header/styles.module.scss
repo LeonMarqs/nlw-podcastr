@@ -22,3 +22,20 @@
     text-transform: capitalize;
   }
 }
+
+@media(max-width: 670px) {
+  .headerContainer {
+    p {
+      display: none;
+    }
+  }
+}
+
+@media(max-width: 400px) {
+  .headerContainer {
+    justify-content: center;
+    span {
+      display: none;
+    }
+  }
+}

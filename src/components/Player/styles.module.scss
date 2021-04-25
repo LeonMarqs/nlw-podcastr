@@ -265,3 +265,67 @@
   }
 
 }
+
+@media(max-height: 635px) {
+  .playerContainer {
+    flex-direction: column;
+    height: 10rem;
+    position: static;
+    .currentEpisode {
+      strong {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      
+      }
+  
+      img {
+        display: none !important
+      }
+      
+    }
+
+    .emptyPlayer {
+      display: none;
+    }
+
+    footer {
+      .progress {
+        margin-top: 0.5rem;
+      }
+      .buttons {
+        margin-top: 1rem;
+      }
+    }
+  
+    // .emptyPlayer {
+    //   width: 8rem;
+    //   height: 8rem;   
+    // }
+  }
+}
+
+@media(max-height: 530px) {
+  .playerContainer {
+    height: 9rem;
+    padding-top: 0.4rem;
+
+    .currentEpisode {
+      strong {
+        margin-top: 0;
+      }
+    }
+
+    footer {
+      .progress {
+        margin-top: 0rem;
+      }
+      .buttons {
+        margin-top: 0.5rem;
+      }
+  }
+ 
+  }
+}
