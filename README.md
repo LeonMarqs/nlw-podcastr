@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="https://imgur.com/eoikiwL.png" alt="Logo" width="260">
+    <img src="https://imgur.com/eoikiwL.png" alt="Logo" width="550">
   </a>
 
   <h3 align="center">Podcastr - NLW</h3>
@@ -42,7 +42,7 @@
 ## About The Project
 
 <p align="center">
-    <img src="https://imgur.com/a6vdhq4.png" alt="Application Screenshot" width="260">
+    <img src="https://imgur.com/a6vdhq4.png" alt="Application Screenshot" width="500">
 </p>
 
 This is a project made by me during the Next Level Week 5 by Rocketseat.
