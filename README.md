@@ -42,7 +42,7 @@
 ## About The Project
 
 <p align="center">
-    <img src="https://imgur.com/a6vdhq4.png" alt="Application Screenshot" width="500">
+    <img src="https://imgur.com/a6vdhq4.png" alt="Application Screenshot" width="550">
 </p>
 
 This is a project made by me during the Next Level Week 5 by Rocketseat.
