@@ -59,9 +59,7 @@
 
 * Clone the project
   ```sh
-  git clone https://github.com/LeonMarqs/nlw-podcastr/edit/main/README.md
-  # or 
-  yarn dev	
+  git clone https://github.com/LeonMarqs/nlw-podcastr.git
   ```
 
 * After that, install the dependencies listed in `package.json` file.
