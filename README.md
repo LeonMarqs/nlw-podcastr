@@ -64,9 +64,9 @@
 
 * After that, install the dependencies listed in `package.json` file.
   ```sh
-  npm install dependence-name
+  npm install 
   #or
-  yarn add dependence-name
+  yarn install
   ```
 
 ### Run Application
